@@ -2,7 +2,7 @@ library(shiny)
 
 shinyUI(fluidPage(
    titlePanel("Estatística Descritiva"),
-   includeCSS("estilo.css"),
+   includeCSS("www/estilo.css"),
    sidebarLayout(
       sidebarPanel(
          sliderInput("desvio", "Desvio Padrão", min = 0.1, max = 5, value = 2.5),
