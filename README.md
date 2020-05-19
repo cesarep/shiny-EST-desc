@@ -1,1 +1,6 @@
-# shiny_EST_desc
+# shiny-EST-desc
+
+```r
+library(shiny)
+runGitHub("shiny-EST-desc", "cesarep")
+```
